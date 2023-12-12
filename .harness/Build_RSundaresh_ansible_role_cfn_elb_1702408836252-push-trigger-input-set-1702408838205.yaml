@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_RSundaresh_ansible_role_cfn_elb_1702408836252-push-trigger-input-set
+  identifier: Build_RSundaresh_ansible_role_cfn_elb_1702408836252pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_RSundaresh_ansible_role_cfn_elb_1702408836252
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
