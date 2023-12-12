@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_RSundaresh_ansible_role_cfn_elb_1702408836252-pr-trigger-input-set
+  identifier: Build_RSundaresh_ansible_role_cfn_elb_1702408836252prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_RSundaresh_ansible_role_cfn_elb_1702408836252
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
